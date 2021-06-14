@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.portfolio{
+    padding-bottom: 70px;
+}
+.portfolio .title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.portfolio .title h2{
+    font-weight: bolder;
+    margin-top: 64px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: #4e4e4e;
+}
+.portfolio .title p{
+    color: #4e4e4e;
+}
+
+.portfolio .navv{
+    text-align: center;
+}
+.portfolio ul{
+   display: inline-block;
+}
+.portfolio li{
+    float: left;
+    margin-right: 10px;
+}
+.portfolio li a{
+    text-decoration: none;
+    display: block;
+    padding:0 15px ;
+    text-align: center;
+    line-height: 36px;
+    color: #333333;
+    border-radius: 5px;
+    transition: all .3s linear ;
+}
+.portfolio li a:hover{
+  background-color:  #c52d2f;
+  color:#fff
+}
+.portfolio li a.btnn{
+    background-color:  #c52d2f;
+    color:#fff
+}
+.portfolio .bottom{
+    margin-top: 30px;
+}
+.portfolio .picture{
+    box-sizing: border-box;
+    position: relative;
+}
+.portfolio .picture img{
+   width: 300px;
+}
+.portfolio .picture .mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    padding: 30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.portfolio .picture .mask:hover{
+    opacity: 1;
+    background-color: #c52d2f;
+}
+.portfolio .picture .mask h3{
+    color: #fff;
+    font-weight: bolder;
+}
+.portfolio .picture .mask p{
+    color: #fff;
+}
+.portfolio .picture .mask a{
+    text-decoration: none;
+    color: #fff;
+}

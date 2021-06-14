@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.services{
+    width: 100%;
+}
+.services .title{
+   margin-bottom: 70px;
+}
+.services .title h2{
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: #4e4e4e;
+    font-size: 38px;
+}
+.services .title p{
+    text-align: center;
+    color: #4e4e4e;
+}
+.services  h2{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.services  h3{
+    font-size: 16px;
+    color: #787878;
+    font-weight: 400;
+    list-style: 24px;
+}
+.services-wrap{
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.services-wrap i{
+    font-size: 48px;
+    height: 110px;
+    width: 110px;
+    margin: 3px;
+    border-radius: 100%;
+    line-height: 110px;
+    text-align: center;
+    background-color: #fff;
+    color: #c52d2f;
+    border: 3px solid #fff;
+    transition: 0.5s;
+    float: left;
+    margin-right: 25px;
+}
+.services-wrap i:hover{
+    background-color: #c52d2f;
+    color: #fff;
+}
+.fa{
+    display: inline-block;
+    font-family:FontAwesome;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+}
+
+/* 定义字体 */
+@font-face{
+    font-family: FontAwesome;
+    src: url(../fonts/fontawesome-webfont.eot);
+    src: url(../fonts/fontawesome-webfont.svg);
+    src: url(../fonts/fontawesome-webfont.ttf);
+    src: url(../fonts/fontawesome-webfont.woff);
+}
+.fa-bullhorn:before{
+    content: "\f0a1";
+}
+.fa-comments:before{
+    content: "\f086";
+}
+.fa-cloud-download:before{
+    content: "\f0ed";
+}
+.fa-leaf:before{
+    content: "\f06c";
+}
+.fa-gears:before, .fa-cogs:before{
+    content: "\f085";
+}
+.fa-heart:before{
+    content: "\f004";
+}
+/* services */
+
+.ready{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.ready .title{
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.ready .title h2{
+    font-weight: bolder;
+    color: #4e4e4e;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.ready .title p{
+    color: #4e4e4e;
+ 
+}
+.ready .title a{
+    text-decoration: none;
+    display: block;
+    width: 167px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #c52d2f;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+/* ready */
+
+
+/* client */
+.client{
+    padding-bottom: 70px;
+}
+.client .title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.client .title h2{
+    font-weight: bolder;
+    color: #4e4e4e;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.client .title p{
+    color: #4e4e4e;
+ 
+}
+.client .circle{
+    text-align: center;
+}
+.client .circle img{
+    border: 5px solid #ddd;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.client .circle h3,.client .circle h4{
+    font-size: 16px;
+    color: #787878;
+    line-height: 24px;
+}
+.client .circle h4 span{
+   font-weight: bolder;
+   font-style: italic;
+   color: #4e4e68;
+}
+
+
